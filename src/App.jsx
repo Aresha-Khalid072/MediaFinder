@@ -1,10 +1,12 @@
 import React from "react";
-import { fetchGIF, fetchPhotos, fetchVideos } from "./api/mediaApi";
+// import { fetchGIF, fetchPhotos, fetchVideos } from "./api/mediaApi";
+import SearchBar from "./components/SearchBar";
 
 const App = () => {
   return (
     <div className="h-screen w-full text-white bg-gray-950">
-      <button
+
+      {/* <button
         className="bg-green-600 px-2 py-3 m-5"
         onClick={async () => {
           const data = await fetchPhotos("cat");
@@ -32,7 +34,9 @@ const App = () => {
         }}
       >
         Get GIF
-      </button>
+      </button> */}
+
+      <SearchBar/>
     </div>
   );
 };
