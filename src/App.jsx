@@ -2,10 +2,11 @@ import React from "react";
 // import { fetchGIF, fetchPhotos, fetchVideos } from "./api/mediaApi";
 import SearchBar from "./components/SearchBar";
 import Tabs from "./components/Tabs";
+import ResultGrid from "./components/ResultGrid";
 
 const App = () => {
   return (
-    <div className="h-screen w-full text-white bg-gray-950">
+    <div className="min-h-screen w-full text-white bg-gray-950">
 
       {/* <button
         className="bg-green-600 px-2 py-3 m-5"
@@ -39,6 +40,7 @@ const App = () => {
 
       <SearchBar/>
       <Tabs/>
+      <ResultGrid/>
     </div>
   );
 };
