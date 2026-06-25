@@ -5,6 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import CollectionPage from "./pages/CollectionPage";
 import NavBar from "./components/NavBar";
+ import { ToastContainer } from 'react-toastify';
+ import 'react-toastify/dist/ReactToastify.css';   
 
 const App = () => {
   return (
@@ -48,6 +50,9 @@ const App = () => {
       </Routes>
 
    
+
+
+    <ToastContainer/>
     </div>
   );
 };

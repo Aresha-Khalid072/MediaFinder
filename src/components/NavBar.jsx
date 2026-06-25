@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div className="p-5 bg-blue-900 flex justify-between items-center ">
-      <h2 className="text-2xl font-semibold">Media Search</h2>
+      <Link to='/' className="text-2xl font-semibold">Media Search</Link>
 
       <div className="flex gap-5 text-xl items-center">
         <Link
