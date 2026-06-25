@@ -4,6 +4,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import CollectionPage from "./pages/CollectionPage";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
@@ -39,6 +40,8 @@ const App = () => {
         Get GIF
       </button> */}
 
+
+    <NavBar/>
       <Routes>
         <Route  path='/' element={<HomePage/>}/>
          <Route  path='/collection' element={<CollectionPage/>}/>
